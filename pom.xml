@@ -171,6 +171,17 @@
 					<mainClass>org.springframework.data.cassandra.examples.template.CassandraTemplateExample</mainClass>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>org.springframework.data.cassandra.examples.template.CassandraTemplateExamplen</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
