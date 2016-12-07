@@ -177,7 +177,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>org.springframework.data.cassandra.examples.template.CassandraTemplateExamplen</mainClass>
+							<mainClass>org.springframework.data.cassandra.examples.template.CassandraTemplateExample</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
