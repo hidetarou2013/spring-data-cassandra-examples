@@ -1,6 +1,6 @@
 package org.springframework.data.cassandra.examples.template;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 import java.net.UnknownHostException;
 import java.util.Collections;
@@ -31,7 +31,7 @@ public class CassandraTemplateExample {
 	// Cassandra Database Configuration Properties
 	static final int DEFAULT_PORT = 9042;
 
-	static final String HOSTNAME = "localhost";
+	static final String HOSTNAME = "192.168.44.128";// localhost
 	static final String KEYSPACE_NAME = "SpringDataCassandraExamples";
 
 	// 'People' Table Column Names
