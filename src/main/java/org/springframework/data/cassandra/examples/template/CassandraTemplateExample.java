@@ -31,7 +31,7 @@ public class CassandraTemplateExample {
 	// Cassandra Database Configuration Properties
 	static final int DEFAULT_PORT = 9160;// 9042 → 9160
 
-	static final String HOSTNAME = "127.0.0.1";// localhost 192.168.44.128 192.168.55.120 cassandra
+	static final String HOSTNAME = "localhost";// localhost 192.168.44.128 192.168.55.120 cassandra
 	static final String KEYSPACE_NAME = "SpringDataCassandraExamples";
 
 	// 'People' Table Column Names
